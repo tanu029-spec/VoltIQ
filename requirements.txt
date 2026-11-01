@@ -1,0 +1,22 @@
+# VoltIQ: EV Battery Health & Intelligence System
+# Compatible with Python 3.13+
+
+# Core Data Manipulation and Scientific Computing
+numpy>=2.1.0
+pandas>=2.2.3
+scipy>=1.14.1
+
+# Machine Learning and Modeling
+scikit-learn>=1.5.2
+joblib>=1.4.2
+
+# Data Visualization
+matplotlib>=3.9.2
+seaborn>=0.13.2
+plotly>=5.24.1
+
+# Interactive Web Application
+streamlit>=1.39.0
+
+# Testing and Code Quality
+pytest>=8.3.3
