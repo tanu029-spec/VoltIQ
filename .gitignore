@@ -58,24 +58,18 @@ desktop.ini
 .coverage
 htmlcov/
 
-# Raw Datasets (Do NOT commit large NASA .mat raw data files)
+# Raw Datasets (Do NOT commit large NASA .mat raw data files or archive zips)
 data/raw/*
 !data/raw/.gitkeep
 *.mat
+*.zip
+*.tar.gz
 
-# Processed data cache (optional to exclude large generated artifacts)
+# Temporary or large parquet caches if any
 data/processed/*.parquet
-data/processed/*.csv
-!data/processed/.gitkeep
+data/processed/*.tmp
 
-# Saved Models & Weights (keep directory structure tracked via .gitkeep)
-models/*
-!models/.gitkeep
-*.joblib
-*.pkl
-
-# Generated Figures & Metrics
-results/figures/*
-!results/figures/.gitkeep
-results/metrics/*
-!results/metrics/.gitkeep
+# Temporary artifacts and scratch files
+scratch/
+*.tmp
+*.log

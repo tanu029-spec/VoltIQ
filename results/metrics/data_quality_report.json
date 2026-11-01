@@ -1,0 +1,179 @@
+{
+  "timestamp": "2026-11-01T22:04:21.525512+00:00",
+  "validation": {
+    "cycles_shape": [
+      636,
+      6
+    ],
+    "meas_shape": [
+      185721,
+      8
+    ],
+    "cycles_columns": [
+      "battery_id",
+      "cycle_number",
+      "cycle_type",
+      "ambient_temperature",
+      "discharge_capacity_ah",
+      "measurement_count"
+    ],
+    "meas_columns": [
+      "battery_id",
+      "cycle_number",
+      "time_seconds",
+      "voltage_measured_v",
+      "current_measured_a",
+      "temperature_measured_c",
+      "current_load_a",
+      "voltage_load_v"
+    ],
+    "batteries_present": [
+      "B0005",
+      "B0006",
+      "B0007",
+      "B0018"
+    ],
+    "cycles_per_battery": {
+      "B0005": 168,
+      "B0006": 168,
+      "B0007": 168,
+      "B0018": 132
+    },
+    "measurements_per_battery": {
+      "B0005": 50285,
+      "B0006": 50285,
+      "B0007": 50285,
+      "B0018": 34866
+    },
+    "null_counts": {
+      "cycles": {
+        "battery_id": 0,
+        "cycle_number": 0,
+        "cycle_type": 0,
+        "ambient_temperature": 0,
+        "discharge_capacity_ah": 0,
+        "measurement_count": 0
+      },
+      "measurements": {
+        "battery_id": 0,
+        "cycle_number": 0,
+        "time_seconds": 0,
+        "voltage_measured_v": 0,
+        "current_measured_a": 0,
+        "temperature_measured_c": 0,
+        "current_load_a": 0,
+        "voltage_load_v": 0
+      }
+    },
+    "infinite_counts": {
+      "cycles": {
+        "cycle_number": 0,
+        "ambient_temperature": 0,
+        "discharge_capacity_ah": 0,
+        "measurement_count": 0
+      },
+      "measurements": {
+        "cycle_number": 0,
+        "time_seconds": 0,
+        "voltage_measured_v": 0,
+        "current_measured_a": 0,
+        "temperature_measured_c": 0,
+        "current_load_a": 0,
+        "voltage_load_v": 0
+      }
+    },
+    "duplicates": {
+      "exact_cycles": 0,
+      "cycle_keys": 0,
+      "exact_measurements": 0,
+      "timestamp_measurements": 0
+    },
+    "temporal_integrity": {
+      "non_monotonic_cycles_count": 0,
+      "non_monotonic_cycles": []
+    },
+    "cross_table_alignment": {
+      "measurement_count_mismatches": 0,
+      "mismatches": []
+    },
+    "capacity_validity": {
+      "non_positive_count": 0,
+      "unphysically_high_count": 0,
+      "min_capacity": 1.15381833159625,
+      "max_capacity": 2.035337591005598
+    }
+  },
+  "cleaning_audit_log": [
+    "Created working copies of extracted cycles and measurements DataFrames.",
+    "Enforced explicit data types on cycle-level DataFrame.",
+    "Enforced explicit data types on measurement-level DataFrame.",
+    "Sorted cycles and measurements deterministically by battery, cycle number, and elapsed time."
+  ],
+  "anomaly_summary": [
+    {
+      "battery_id": "B0005",
+      "total_cycles": 168,
+      "capacity_iqr_outliers": 0,
+      "capacity_recoveries": 7,
+      "duration_iqr_outliers": 0,
+      "total_measurements": 50285,
+      "voltage_physical_anomalies": 0,
+      "below_nominal_cutoff_samples": 168,
+      "current_spikes": 0,
+      "temperature_physical_anomalies": 0,
+      "load_sign_inverted_samples": 5415
+    },
+    {
+      "battery_id": "B0006",
+      "total_cycles": 168,
+      "capacity_iqr_outliers": 0,
+      "capacity_recoveries": 11,
+      "duration_iqr_outliers": 0,
+      "total_measurements": 50285,
+      "voltage_physical_anomalies": 0,
+      "below_nominal_cutoff_samples": 168,
+      "current_spikes": 0,
+      "temperature_physical_anomalies": 0,
+      "load_sign_inverted_samples": 5746
+    },
+    {
+      "battery_id": "B0007",
+      "total_cycles": 168,
+      "capacity_iqr_outliers": 0,
+      "capacity_recoveries": 7,
+      "duration_iqr_outliers": 0,
+      "total_measurements": 50285,
+      "voltage_physical_anomalies": 0,
+      "below_nominal_cutoff_samples": 168,
+      "current_spikes": 0,
+      "temperature_physical_anomalies": 0,
+      "load_sign_inverted_samples": 5649
+    },
+    {
+      "battery_id": "B0018",
+      "total_cycles": 132,
+      "capacity_iqr_outliers": 0,
+      "capacity_recoveries": 9,
+      "duration_iqr_outliers": 0,
+      "total_measurements": 34866,
+      "voltage_physical_anomalies": 0,
+      "below_nominal_cutoff_samples": 132,
+      "current_spikes": 0,
+      "temperature_physical_anomalies": 0,
+      "load_sign_inverted_samples": 0
+    },
+    {
+      "battery_id": "ALL_BATTERIES",
+      "total_cycles": 636,
+      "capacity_iqr_outliers": 0,
+      "capacity_recoveries": 34,
+      "duration_iqr_outliers": 0,
+      "total_measurements": 185721,
+      "voltage_physical_anomalies": 0,
+      "below_nominal_cutoff_samples": 636,
+      "current_spikes": 0,
+      "temperature_physical_anomalies": 0,
+      "load_sign_inverted_samples": 16810
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-11-01T21:53:51.010092+00:00",
+  "batteries_processed": [
+    "B0005",
+    "B0006",
+    "B0007",
+    "B0018"
+  ],
+  "cycle_breakdown_raw": {
+    "B0005": {
+      "charge": 170,
+      "discharge": 168,
+      "impedance": 278
+    },
+    "B0006": {
+      "charge": 170,
+      "discharge": 168,
+      "impedance": 278
+    },
+    "B0007": {
+      "charge": 170,
+      "discharge": 168,
+      "impedance": 278
+    },
+    "B0018": {
+      "charge": 134,
+      "impedance": 53,
+      "discharge": 132
+    }
+  },
+  "valid_discharge_cycles_total": 636,
+  "discharge_cycles_per_battery": {
+    "B0005": 168,
+    "B0006": 168,
+    "B0007": 168,
+    "B0018": 132
+  },
+  "measurement_rows_total": 185721,
+  "measurement_rows_per_battery": {
+    "B0005": 50285,
+    "B0006": 50285,
+    "B0007": 50285,
+    "B0018": 34866
+  },
+  "skipped_cycles_count": 0,
+  "skipped_cycles_details": [],
+  "data_integrity": {
+    "duplicate_cycle_records": 0,
+    "duplicate_measurement_records": 0,
+    "alignment_mismatches_count": 0,
+    "missing_values_cycles": {
+      "battery_id": 0,
+      "cycle_number": 0,
+      "cycle_type": 0,
+      "ambient_temperature": 0,
+      "discharge_capacity_ah": 0,
+      "measurement_count": 0
+    },
+    "missing_values_measurements": {
+      "battery_id": 0,
+      "cycle_number": 0,
+      "time_seconds": 0,
+      "voltage_measured_v": 0,
+      "current_measured_a": 0,
+      "temperature_measured_c": 0,
+      "current_load_a": 0,
+      "voltage_load_v": 0
+    }
+  },
+  "value_ranges": {
+    "discharge_capacity_ah": {
+      "min": 1.15381833159625,
+      "max": 2.035337591005598
+    },
+    "voltage_measured_v": {
+      "min": 1.7370300333706354,
+      "max": 4.2333254357000865
+    },
+    "current_measured_a": {
+      "min": -2.029098489464331,
+      "max": 0.014305956605835403
+    },
+    "temperature_measured_c": {
+      "min": 22.35025648802666,
+      "max": 42.33252236723314
+    }
+  },
+  "file_paths": {
+    "battery_cycles_csv": "data/processed/battery_cycles.csv",
+    "battery_measurements_csv": "data/processed/battery_measurements.csv",
+    "battery_cycles_size_bytes": 30946,
+    "battery_measurements_size_bytes": 16368578
+  }
+}

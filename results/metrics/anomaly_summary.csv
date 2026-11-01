@@ -1,0 +1,6 @@
+battery_id,total_cycles,capacity_iqr_outliers,capacity_recoveries,duration_iqr_outliers,total_measurements,voltage_physical_anomalies,below_nominal_cutoff_samples,current_spikes,temperature_physical_anomalies,load_sign_inverted_samples
+B0005,168,0,7,0,50285,0,168,0,0,5415
+B0006,168,0,11,0,50285,0,168,0,0,5746
+B0007,168,0,7,0,50285,0,168,0,0,5649
+B0018,132,0,9,0,34866,0,132,0,0,0
+ALL_BATTERIES,636,0,34,0,185721,0,636,0,0,16810

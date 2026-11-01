@@ -1,0 +1,1053 @@
+{
+  "descriptive_statistics": {
+    "total_records": 636,
+    "global_statistics": {
+      "soh_percentage": {
+        "count": 636,
+        "mean": 82.84816779739228,
+        "std": 10.930582047757627,
+        "median": 82.31780853865666,
+        "min": 56.689285192545555,
+        "max": 100.0,
+        "q25": 74.80673043905963,
+        "q75": 92.52619823462459
+      },
+      "discharge_capacity_ah": {
+        "count": 636,
+        "mean": 1.5816518122788688,
+        "std": 0.19876466837791598,
+        "median": 1.5596947155156364,
+        "min": 1.15381833159625,
+        "max": 2.035337591005598,
+        "q25": 1.4211226690112522,
+        "q75": 1.7634860433534145
+      },
+      "voltage_mean": {
+        "count": 636,
+        "mean": 3.498623017869267,
+        "std": 0.04753174790886963,
+        "median": 3.5025200757459167,
+        "min": 3.403885091976961,
+        "max": 3.5735512387791406,
+        "q25": 3.4667202562475206,
+        "q75": 3.5410594539355618
+      },
+      "voltage_min": {
+        "count": 636,
+        "mean": 2.387737440761237,
+        "std": 0.2199060507844478,
+        "median": 2.4210344794657197,
+        "min": 1.7370300333706354,
+        "max": 2.699983457940659,
+        "q25": 2.1866625972558613,
+        "q75": 2.5291820911817515
+      },
+      "voltage_max": {
+        "count": 636,
+        "mean": 4.191865097099145,
+        "std": 0.008575074858069139,
+        "median": 4.190568907846387,
+        "min": 4.1575524997258,
+        "max": 4.2333254357000865,
+        "q25": 4.1857582639005475,
+        "q75": 4.199235595299923
+      },
+      "temperature_mean": {
+        "count": 636,
+        "mean": 32.327554601517576,
+        "std": 0.9711467682648106,
+        "median": 32.368347273375136,
+        "min": 30.10270376338569,
+        "max": 34.490493589415046,
+        "q25": 31.516568007048473,
+        "q75": 33.17511847270234
+      },
+      "temperature_max": {
+        "count": 636,
+        "mean": 39.57145578249897,
+        "std": 1.438533365264564,
+        "median": 39.671952276061674,
+        "min": 36.372087786130464,
+        "max": 42.33252236723314,
+        "q25": 38.370833946879074,
+        "q75": 40.87048701551345
+      },
+      "discharge_duration_seconds": {
+        "count": 636,
+        "mean": 3116.9777012578616,
+        "std": 242.19722439337963,
+        "median": 3084.281,
+        "min": 2742.843,
+        "max": 3690.234,
+        "q25": 2891.99625,
+        "q75": 3311.828
+      },
+      "ica_peak_value": {
+        "count": 636,
+        "mean": 3.923437052075268,
+        "std": 0.9805213444212738,
+        "median": 3.7685602409772763,
+        "min": 2.1028068297946767,
+        "max": 5.92213242417202,
+        "q25": 3.0794575557458117,
+        "q75": 4.893538159352721
+      },
+      "ica_area": {
+        "count": 636,
+        "mean": 1.0046776207805284,
+        "std": 0.2569475443306601,
+        "median": 0.9985877823715272,
+        "min": 0.43659633663399167,
+        "max": 1.488826472916059,
+        "q25": 0.8077934098626806,
+        "q75": 1.2400842645904533
+      }
+    },
+    "battery_wise_statistics": {
+      "B0005": {
+        "soh_percentage": {
+          "count": 168,
+          "mean": 84.70308210215337,
+          "std": 10.256615201337654,
+          "median": 83.87266419065239,
+          "min": 69.34884167276275,
+          "max": 100.0,
+          "q25": 74.87369793092476,
+          "q75": 95.29622943367093
+        },
+        "discharge_capacity_ah": {
+          "count": 168,
+          "mean": 1.5725020642717535,
+          "std": 0.19041277101455648,
+          "median": 1.5570854602045165,
+          "min": 1.2874525221379407,
+          "max": 1.8564874208181574,
+          "q25": 1.3900207835890033,
+          "q75": 1.7691625119501113
+        },
+        "voltage_mean": {
+          "count": 168,
+          "mean": 3.516787352541021,
+          "std": 0.032726550644088435,
+          "median": 3.514628984583152,
+          "min": 3.464021404592563,
+          "max": 3.564103182686905,
+          "q25": 3.4866391459275556,
+          "q75": 3.5510605482909465
+        },
+        "voltage_min": {
+          "count": 168,
+          "mean": 2.648938548502571,
+          "std": 0.04929706865133627,
+          "median": 2.660192336887317,
+          "min": 2.4556793246645583,
+          "max": 2.699983457940659,
+          "q25": 2.6361045074598883,
+          "q75": 2.682589094163432
+        },
+        "voltage_max": {
+          "count": 168,
+          "mean": 4.195982371789411,
+          "std": 0.004694212724813889,
+          "median": 4.196905201182689,
+          "min": 4.184534803011309,
+          "max": 4.222920057935785,
+          "q25": 4.195442695636577,
+          "q75": 4.1989929203225556
+        },
+        "temperature_mean": {
+          "count": 168,
+          "mean": 32.79131856603086,
+          "std": 0.7136311189911065,
+          "median": 32.85692261921708,
+          "min": 31.329995610092634,
+          "max": 34.31088483888259,
+          "q25": 32.28237494216469,
+          "q75": 33.35618447701475
+        },
+        "temperature_max": {
+          "count": 168,
+          "mean": 39.84511008029667,
+          "std": 1.1180199286824213,
+          "median": 40.08075284943489,
+          "min": 37.80133585100446,
+          "max": 41.45023191903855,
+          "q25": 38.8046736439495,
+          "q75": 40.86523779596018
+        },
+        "discharge_duration_seconds": {
+          "count": 168,
+          "mean": 3129.523886904762,
+          "std": 246.65449902055903,
+          "median": 3086.078,
+          "min": 2792.485,
+          "max": 3690.234,
+          "q25": 2901.34375,
+          "q75": 3323.23075
+        },
+        "ica_peak_value": {
+          "count": 168,
+          "mean": 3.942951845188716,
+          "std": 0.9549867294999045,
+          "median": 3.76818869768179,
+          "min": 2.602939040695979,
+          "max": 5.44277429198015,
+          "q25": 3.0382740228651244,
+          "q75": 4.988419692887353
+        },
+        "ica_area": {
+          "count": 168,
+          "mean": 1.0315146008914504,
+          "std": 0.22205122581101575,
+          "median": 1.010801004011149,
+          "min": 0.694950958202801,
+          "max": 1.354580103432231,
+          "q25": 0.8219836806221754,
+          "q75": 1.259139090286635
+        }
+      },
+      "B0006": {
+        "soh_percentage": {
+          "count": 168,
+          "mean": 75.99970953762241,
+          "std": 12.38310474377079,
+          "median": 72.979131081715,
+          "min": 56.689285192545555,
+          "max": 100.0,
+          "q25": 66.2016533420066,
+          "q75": 86.82626356505793
+        },
+        "discharge_capacity_ah": {
+          "count": 168,
+          "mean": 1.5468506572742955,
+          "std": 0.2520379857835643,
+          "median": 1.4853716884953956,
+          "min": 1.15381833159625,
+          "max": 2.035337591005598,
+          "q25": 1.3474271363370738,
+          "q75": 1.7672075812052213
+        },
+        "voltage_mean": {
+          "count": 168,
+          "mean": 3.463703028174787,
+          "std": 0.05966397535356572,
+          "median": 3.431432524120771,
+          "min": 3.403885091976961,
+          "max": 3.5735512387791406,
+          "q25": 3.414226647970972,
+          "q75": 3.515365250166701
+        },
+        "voltage_min": {
+          "count": 168,
+          "mean": 2.4157790637127268,
+          "std": 0.06766717062203662,
+          "median": 2.429201911806815,
+          "min": 2.1206980945954057,
+          "max": 2.4999079970509284,
+          "q25": 2.3929744020309083,
+          "q75": 2.46238816451717
+        },
+        "voltage_max": {
+          "count": 168,
+          "mean": 4.181963200386656,
+          "std": 0.005868903772007767,
+          "median": 4.182276032095807,
+          "min": 4.1575524997258,
+          "max": 4.222516216835943,
+          "q25": 4.179917594170173,
+          "q75": 4.183916581244127
+        },
+        "temperature_mean": {
+          "count": 168,
+          "mean": 32.79266458937206,
+          "std": 0.9849769979869746,
+          "median": 33.12253302251196,
+          "min": 30.761533072057244,
+          "max": 34.490493589415046,
+          "q25": 32.03536614548887,
+          "q75": 33.58781066541548
+        },
+        "temperature_max": {
+          "count": 168,
+          "mean": 39.86925007977231,
+          "std": 1.3972047352825527,
+          "median": 40.33301872584477,
+          "min": 36.98024266357476,
+          "max": 42.0075404495327,
+          "q25": 38.8416777265726,
+          "q75": 41.21062538982408
+        },
+        "discharge_duration_seconds": {
+          "count": 168,
+          "mean": 3129.523886904762,
+          "std": 246.65449902055903,
+          "median": 3086.078,
+          "min": 2792.485,
+          "max": 3690.234,
+          "q25": 2901.34375,
+          "q75": 3323.23075
+        },
+        "ica_peak_value": {
+          "count": 168,
+          "mean": 3.6204684459506224,
+          "std": 1.1768227202536037,
+          "median": 3.08916794454802,
+          "min": 2.1028068297946767,
+          "max": 5.92213242417202,
+          "q25": 2.740236949470269,
+          "q75": 4.5776959080384465
+        },
+        "ica_area": {
+          "count": 168,
+          "mean": 0.88050003682818,
+          "std": 0.3357530201878571,
+          "median": 0.7677170000371447,
+          "min": 0.43659633663399167,
+          "max": 1.488826472916059,
+          "q25": 0.5967848563858335,
+          "q75": 1.189092696233542
+        }
+      },
+      "B0007": {
+        "soh_percentage": {
+          "count": 168,
+          "mean": 86.95800772524873,
+          "std": 8.5111523251166,
+          "median": 85.46169874615185,
+          "min": 74.05692816217145,
+          "max": 100.0,
+          "q25": 79.21822064317539,
+          "q75": 95.81994507168642
+        },
+        "discharge_capacity_ah": {
+          "count": 168,
+          "mean": 1.6444214011144167,
+          "std": 0.16095034140832404,
+          "median": 1.6161254158190665,
+          "min": 1.4004552399066514,
+          "max": 1.89105229539079,
+          "q25": 1.498057979840509,
+          "q75": 1.81200527072032
+        },
+        "voltage_mean": {
+          "count": 168,
+          "mean": 3.5175684945636356,
+          "std": 0.035169431284942154,
+          "median": 3.5132023214903247,
+          "min": 3.4578782949034514,
+          "max": 3.572496559005355,
+          "q25": 3.489110262100862,
+          "q75": 3.552448215308045
+        },
+        "voltage_min": {
+          "count": 168,
+          "mean": 2.079761080776708,
+          "std": 0.09619926106550257,
+          "median": 2.101965244475968,
+          "min": 1.7370300333706354,
+          "max": 2.199196544880164,
+          "q25": 2.0260156475950586,
+          "q75": 2.1566863036203743
+        },
+        "voltage_max": {
+          "count": 168,
+          "mean": 4.200713968635245,
+          "std": 0.003629433699512492,
+          "median": 4.201004584452862,
+          "min": 4.188887274283021,
+          "max": 4.2333254357000865,
+          "q25": 4.199229208947929,
+          "q75": 4.202300047826837
+        },
+        "temperature_mean": {
+          "count": 168,
+          "mean": 32.367750973956205,
+          "std": 0.5833859237245549,
+          "median": 32.45221439908598,
+          "min": 30.884857004354572,
+          "max": 33.880577817079796,
+          "q25": 32.03015526584649,
+          "q75": 32.721457359591945
+        },
+        "temperature_max": {
+          "count": 168,
+          "mean": 40.44047549852638,
+          "std": 0.895617140119203,
+          "median": 40.60782115024788,
+          "min": 38.34572083526661,
+          "max": 42.33252236723314,
+          "q25": 39.9383380219897,
+          "q75": 41.03113149837158
+        },
+        "discharge_duration_seconds": {
+          "count": 168,
+          "mean": 3129.523886904762,
+          "std": 246.65449902055903,
+          "median": 3086.078,
+          "min": 2792.485,
+          "max": 3690.234,
+          "q25": 2901.34375,
+          "q75": 3323.23075
+        },
+        "ica_peak_value": {
+          "count": 168,
+          "mean": 4.31049071715173,
+          "std": 0.8016285431398733,
+          "median": 4.121173969074899,
+          "min": 3.121538177762247,
+          "max": 5.5637849745698205,
+          "q25": 3.5902353927360924,
+          "q75": 5.216693348711612
+        },
+        "ica_area": {
+          "count": 168,
+          "mean": 1.1060436723374572,
+          "std": 0.1815914812671684,
+          "median": 1.0809832110438424,
+          "min": 0.8200819865255509,
+          "max": 1.3673102199723761,
+          "q25": 0.9437899553910958,
+          "q75": 1.2984248178050843
+        }
+      },
+      "B0018": {
+        "soh_percentage": {
+          "count": 132,
+          "mean": 83.97288201376793,
+          "std": 8.34955437250377,
+          "median": 82.5815923256821,
+          "min": 72.29370201580872,
+          "max": 100.0,
+          "q25": 76.29566049052286,
+          "q75": 90.83191835942964
+        },
+        "discharge_capacity_ah": {
+          "count": 132,
+          "mean": 1.5577007575939563,
+          "std": 0.15488461107585436,
+          "median": 1.531892270982664,
+          "min": 1.341051440640485,
+          "max": 1.8550045207910817,
+          "q25": 1.4152879512666146,
+          "q75": 1.6849361918886843
+        },
+        "voltage_mean": {
+          "count": 132,
+          "mean": 3.495835972105361,
+          "std": 0.03187659284198712,
+          "median": 3.4949669384781306,
+          "min": 3.444632719716698,
+          "max": 3.5475142438631493,
+          "q25": 3.4652355975685,
+          "q75": 3.5259603817466543
+        },
+        "voltage_min": {
+          "count": 132,
+          "mean": 2.4115802416779517,
+          "std": 0.05441975050559259,
+          "median": 2.4149249183760384,
+          "min": 2.2786338886500292,
+          "max": 2.4985039496028567,
+          "q25": 2.370279667882349,
+          "q75": 2.462398805701329
+        },
+        "voltage_max": {
+          "count": 132,
+          "mean": 4.187965143172393,
+          "std": 0.0021012311961164922,
+          "median": 4.1879485273940364,
+          "min": 4.181406543107895,
+          "max": 4.193543208571066,
+          "q25": 4.186620114710142,
+          "q75": 4.189572258116
+        },
+        "temperature_mean": {
+          "count": 132,
+          "mean": 31.094192369945784,
+          "std": 0.40452557538536904,
+          "median": 31.05465517878691,
+          "min": 30.10270376338569,
+          "max": 32.02311236185272,
+          "q25": 30.824671217109888,
+          "q75": 31.38600859155987
+        },
+        "temperature_max": {
+          "count": 132,
+          "mean": 37.73813247746459,
+          "std": 0.601057678284999,
+          "median": 37.750584571822344,
+          "min": 36.372087786130464,
+          "max": 38.878687997701746,
+          "q25": 37.35859699075144,
+          "q75": 38.16080639362655
+        },
+        "discharge_duration_seconds": {
+          "count": 132,
+          "mean": 3069.074083333333,
+          "std": 220.79798671373882,
+          "median": 3047.875,
+          "min": 2742.843,
+          "max": 3434.891,
+          "q25": 2849.1755,
+          "q75": 3270.74575
+        },
+        "ica_peak_value": {
+          "count": 132,
+          "mean": 3.791582694901295,
+          "std": 0.7649551631680159,
+          "median": 3.6901749130639416,
+          "min": 2.773284191149351,
+          "max": 5.1662609551527225,
+          "q25": 3.0818111554180785,
+          "q75": 4.4704021551359645
+        },
+        "ica_area": {
+          "count": 132,
+          "mean": 0.999554323688071,
+          "std": 0.19371210546477913,
+          "median": 0.9724694506768968,
+          "min": 0.7300298594012526,
+          "max": 1.3361814053201895,
+          "q25": 0.8169248886635746,
+          "q75": 1.1622941637324375
+        }
+      }
+    }
+  },
+  "correlations": {
+    "soh_pearson": {
+      "cycle_number": -0.8641603139599875,
+      "discharge_capacity_ah": 0.9586127238670269,
+      "measurement_count": -0.18871888599728673,
+      "cycle_duration_s": 0.888543041422965,
+      "initial_capacity_ah": -0.3496791976764522,
+      "cycle_index": -0.8942947534201814,
+      "capacity_fade_percentage": -1.0,
+      "capacity_loss_ah": -0.9970739141573307,
+      "relative_capacity_retention": 1.0,
+      "discharge_duration_seconds": 0.8885430414229651,
+      "average_sampling_interval": 0.5042182825770881,
+      "voltage_mean": 0.9549963907195566,
+      "voltage_median": 0.943802972506281,
+      "voltage_min": -0.20025589479034356,
+      "voltage_max": 0.3127246523812558,
+      "voltage_std": -0.16935961763476323,
+      "voltage_range": 0.21032640828205093,
+      "current_mean": -0.8819307868119696,
+      "current_median": 0.20752390416229674,
+      "current_min": 0.21514943567498385,
+      "current_max": -0.23888877103535014,
+      "current_std": -0.8235690400254231,
+      "current_range": -0.24199067599766205,
+      "temperature_mean": -0.5619588157103101,
+      "temperature_median": -0.5831415335079485,
+      "temperature_min": 0.012440512975485896,
+      "temperature_max": -0.559739519499966,
+      "temperature_std": -0.8770378394484379,
+      "temperature_range": -0.6591474206145013,
+      "current_load_mean": -0.48804366302693813,
+      "voltage_load_mean": 0.906212593301198,
+      "capacity_change_ah": 0.025681338307730527,
+      "capacity_change_percentage": 0.04742219988963906,
+      "soh_change_percentage": 0.022996049458990832,
+      "cycle_duration_change": -0.042876773748012416,
+      "temperature_change_from_previous_cycle": -0.021332396017579185,
+      "ica_peak_value": 0.9701454715737908,
+      "ica_peak_voltage": 0.9129843391277596,
+      "ica_area": 0.9876834570306738
+    },
+    "soh_spearman": {
+      "cycle_number": -0.8750680742535427,
+      "discharge_capacity_ah": 0.9603701471191778,
+      "measurement_count": 0.03369226792954992,
+      "cycle_duration_s": 0.89641401869161,
+      "initial_capacity_ah": -0.20873888530264606,
+      "cycle_index": -0.8980831652612291,
+      "capacity_fade_percentage": -1.0,
+      "capacity_loss_ah": -0.9982823675275431,
+      "relative_capacity_retention": 1.0,
+      "discharge_duration_seconds": 0.89641401869161,
+      "average_sampling_interval": 0.0974176870135268,
+      "voltage_mean": 0.9529472870489738,
+      "voltage_median": 0.9502739090081301,
+      "voltage_min": -0.1860791695397476,
+      "voltage_max": 0.34295896361792183,
+      "voltage_std": -0.19361694113542374,
+      "voltage_range": 0.1957931933054662,
+      "current_mean": -0.8666369533962338,
+      "current_median": 0.09908412458909635,
+      "current_min": 0.17536186810176752,
+      "current_max": -0.257201940505125,
+      "current_std": -0.8402772010239241,
+      "current_range": -0.241790432117015,
+      "temperature_mean": -0.5653560292342236,
+      "temperature_median": -0.5512040929680224,
+      "temperature_min": 0.008904931878129472,
+      "temperature_max": -0.5634056585588426,
+      "temperature_std": -0.8715056849952592,
+      "temperature_range": -0.6469339531605552,
+      "current_load_mean": 0.22765599972423314,
+      "voltage_load_mean": 0.8992036307097673,
+      "capacity_change_ah": -0.019263437326682287,
+      "capacity_change_percentage": 0.09829701425910628,
+      "soh_change_percentage": -0.049562300619034313,
+      "cycle_duration_change": -0.23336906671303306,
+      "temperature_change_from_previous_cycle": -0.08544049578719885,
+      "ica_peak_value": 0.977278723887342,
+      "ica_peak_voltage": 0.9495540785267566,
+      "ica_area": 0.9856162815661292
+    },
+    "highly_collinear_pairs_count": 77,
+    "highly_collinear_pairs": [
+      {
+        "feature_1": "cycle_number",
+        "feature_2": "cycle_index",
+        "pearson_r": 0.9803624382691458
+      },
+      {
+        "feature_1": "cycle_number",
+        "feature_2": "temperature_std",
+        "pearson_r": 0.9165669223967322
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "cycle_duration_s",
+        "pearson_r": 0.9522552235909015
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "cycle_index",
+        "pearson_r": -0.9286613597405711
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "soh_percentage",
+        "pearson_r": 0.9586127238670269
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "capacity_fade_percentage",
+        "pearson_r": -0.9586127238670271
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "capacity_loss_ah",
+        "pearson_r": -0.9388722687681031
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "relative_capacity_retention",
+        "pearson_r": 0.9586127238670268
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "discharge_duration_seconds",
+        "pearson_r": 0.9522552235909015
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "voltage_load_mean",
+        "pearson_r": 0.9074594069597975
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "ica_peak_value",
+        "pearson_r": 0.9883700160199388
+      },
+      {
+        "feature_1": "discharge_capacity_ah",
+        "feature_2": "ica_area",
+        "pearson_r": 0.9775134757403608
+      },
+      {
+        "feature_1": "measurement_count",
+        "feature_2": "average_sampling_interval",
+        "pearson_r": -0.9152257372956538
+      },
+      {
+        "feature_1": "cycle_duration_s",
+        "feature_2": "cycle_index",
+        "pearson_r": -0.9470971707223976
+      },
+      {
+        "feature_1": "cycle_duration_s",
+        "feature_2": "discharge_duration_seconds",
+        "pearson_r": 1.0
+      },
+      {
+        "feature_1": "cycle_duration_s",
+        "feature_2": "ica_peak_value",
+        "pearson_r": 0.9291536583584189
+      },
+      {
+        "feature_1": "cycle_index",
+        "feature_2": "discharge_duration_seconds",
+        "pearson_r": -0.9470971707223974
+      },
+      {
+        "feature_1": "cycle_index",
+        "feature_2": "temperature_std",
+        "pearson_r": 0.906383265897765
+      },
+      {
+        "feature_1": "soh_percentage",
+        "feature_2": "capacity_fade_percentage",
+        "pearson_r": -1.0
+      },
+      {
+        "feature_1": "soh_percentage",
+        "feature_2": "capacity_loss_ah",
+        "pearson_r": -0.9970739141573307
+      },
+      {
+        "feature_1": "soh_percentage",
+        "feature_2": "relative_capacity_retention",
+        "pearson_r": 1.0
+      },
+      {
+        "feature_1": "soh_percentage",
+        "feature_2": "voltage_mean",
+        "pearson_r": 0.9549963907195566
+      },
+      {
+        "feature_1": "soh_percentage",
+        "feature_2": "voltage_median",
+        "pearson_r": 0.943802972506281
+      },
+      {
+        "feature_1": "soh_percentage",
+        "feature_2": "voltage_load_mean",
+        "pearson_r": 0.906212593301198
+      },
+      {
+        "feature_1": "soh_percentage",
+        "feature_2": "ica_peak_value",
+        "pearson_r": 0.9701454715737908
+      },
+      {
+        "feature_1": "soh_percentage",
+        "feature_2": "ica_peak_voltage",
+        "pearson_r": 0.9129843391277596
+      },
+      {
+        "feature_1": "soh_percentage",
+        "feature_2": "ica_area",
+        "pearson_r": 0.9876834570306738
+      },
+      {
+        "feature_1": "capacity_fade_percentage",
+        "feature_2": "capacity_loss_ah",
+        "pearson_r": 0.9970739141573307
+      },
+      {
+        "feature_1": "capacity_fade_percentage",
+        "feature_2": "relative_capacity_retention",
+        "pearson_r": -0.9999999999999999
+      },
+      {
+        "feature_1": "capacity_fade_percentage",
+        "feature_2": "voltage_mean",
+        "pearson_r": -0.9549963907195564
+      },
+      {
+        "feature_1": "capacity_fade_percentage",
+        "feature_2": "voltage_median",
+        "pearson_r": -0.9438029725062814
+      },
+      {
+        "feature_1": "capacity_fade_percentage",
+        "feature_2": "voltage_load_mean",
+        "pearson_r": -0.9062125933011985
+      },
+      {
+        "feature_1": "capacity_fade_percentage",
+        "feature_2": "ica_peak_value",
+        "pearson_r": -0.9701454715737907
+      },
+      {
+        "feature_1": "capacity_fade_percentage",
+        "feature_2": "ica_peak_voltage",
+        "pearson_r": -0.9129843391277592
+      },
+      {
+        "feature_1": "capacity_fade_percentage",
+        "feature_2": "ica_area",
+        "pearson_r": -0.9876834570306736
+      },
+      {
+        "feature_1": "capacity_loss_ah",
+        "feature_2": "relative_capacity_retention",
+        "pearson_r": -0.9970739141573293
+      },
+      {
+        "feature_1": "capacity_loss_ah",
+        "feature_2": "voltage_mean",
+        "pearson_r": -0.9624358587849611
+      },
+      {
+        "feature_1": "capacity_loss_ah",
+        "feature_2": "voltage_median",
+        "pearson_r": -0.9514959325625941
+      },
+      {
+        "feature_1": "capacity_loss_ah",
+        "feature_2": "voltage_load_mean",
+        "pearson_r": -0.9049645557260511
+      },
+      {
+        "feature_1": "capacity_loss_ah",
+        "feature_2": "ica_peak_value",
+        "pearson_r": -0.9540414550845706
+      },
+      {
+        "feature_1": "capacity_loss_ah",
+        "feature_2": "ica_peak_voltage",
+        "pearson_r": -0.9332755805298014
+      },
+      {
+        "feature_1": "capacity_loss_ah",
+        "feature_2": "ica_area",
+        "pearson_r": -0.9822216059889739
+      },
+      {
+        "feature_1": "relative_capacity_retention",
+        "feature_2": "voltage_mean",
+        "pearson_r": 0.9549963907195578
+      },
+      {
+        "feature_1": "relative_capacity_retention",
+        "feature_2": "voltage_median",
+        "pearson_r": 0.9438029725062839
+      },
+      {
+        "feature_1": "relative_capacity_retention",
+        "feature_2": "voltage_load_mean",
+        "pearson_r": 0.9062125933011985
+      },
+      {
+        "feature_1": "relative_capacity_retention",
+        "feature_2": "ica_peak_value",
+        "pearson_r": 0.9701454715737909
+      },
+      {
+        "feature_1": "relative_capacity_retention",
+        "feature_2": "ica_peak_voltage",
+        "pearson_r": 0.9129843391277589
+      },
+      {
+        "feature_1": "relative_capacity_retention",
+        "feature_2": "ica_area",
+        "pearson_r": 0.9876834570306751
+      },
+      {
+        "feature_1": "discharge_duration_seconds",
+        "feature_2": "ica_peak_value",
+        "pearson_r": 0.9291536583584189
+      },
+      {
+        "feature_1": "average_sampling_interval",
+        "feature_2": "current_load_mean",
+        "pearson_r": -0.939053881010828
+      },
+      {
+        "feature_1": "voltage_mean",
+        "feature_2": "voltage_median",
+        "pearson_r": 0.990196298176563
+      },
+      {
+        "feature_1": "voltage_mean",
+        "feature_2": "ica_peak_value",
+        "pearson_r": 0.9307136122001383
+      },
+      {
+        "feature_1": "voltage_mean",
+        "feature_2": "ica_peak_voltage",
+        "pearson_r": 0.9607978831820626
+      },
+      {
+        "feature_1": "voltage_mean",
+        "feature_2": "ica_area",
+        "pearson_r": 0.9600804495604884
+      },
+      {
+        "feature_1": "voltage_median",
+        "feature_2": "ica_peak_value",
+        "pearson_r": 0.9225506111935163
+      },
+      {
+        "feature_1": "voltage_median",
+        "feature_2": "ica_peak_voltage",
+        "pearson_r": 0.9623159776345663
+      },
+      {
+        "feature_1": "voltage_median",
+        "feature_2": "ica_area",
+        "pearson_r": 0.9519150096594622
+      },
+      {
+        "feature_1": "voltage_min",
+        "feature_2": "voltage_range",
+        "pearson_r": -0.9992978032553622
+      },
+      {
+        "feature_1": "voltage_range",
+        "feature_2": "current_median",
+        "pearson_r": 0.9002508075081829
+      },
+      {
+        "feature_1": "current_mean",
+        "feature_2": "current_std",
+        "pearson_r": 0.9582069092731864
+      },
+      {
+        "feature_1": "current_mean",
+        "feature_2": "voltage_load_mean",
+        "pearson_r": -0.9931342803827414
+      },
+      {
+        "feature_1": "current_mean",
+        "feature_2": "ica_area",
+        "pearson_r": -0.9086900156539246
+      },
+      {
+        "feature_1": "current_median",
+        "feature_2": "current_min",
+        "pearson_r": 0.9696858044295582
+      },
+      {
+        "feature_1": "current_median",
+        "feature_2": "current_range",
+        "pearson_r": -0.9518426295978163
+      },
+      {
+        "feature_1": "current_min",
+        "feature_2": "current_range",
+        "pearson_r": -0.9852375877079816
+      },
+      {
+        "feature_1": "current_std",
+        "feature_2": "voltage_load_mean",
+        "pearson_r": -0.9523663060085358
+      },
+      {
+        "feature_1": "temperature_mean",
+        "feature_2": "temperature_median",
+        "pearson_r": 0.9896125078670133
+      },
+      {
+        "feature_1": "temperature_mean",
+        "feature_2": "temperature_max",
+        "pearson_r": 0.9129082528514724
+      },
+      {
+        "feature_1": "temperature_max",
+        "feature_2": "temperature_range",
+        "pearson_r": 0.9183781707928261
+      },
+      {
+        "feature_1": "temperature_std",
+        "feature_2": "temperature_range",
+        "pearson_r": 0.9134049275924311
+      },
+      {
+        "feature_1": "voltage_load_mean",
+        "feature_2": "ica_peak_value",
+        "pearson_r": 0.9103049037173049
+      },
+      {
+        "feature_1": "voltage_load_mean",
+        "feature_2": "ica_area",
+        "pearson_r": 0.9306933136372828
+      },
+      {
+        "feature_1": "capacity_change_ah",
+        "feature_2": "capacity_change_percentage",
+        "pearson_r": 0.9932726854233593
+      },
+      {
+        "feature_1": "capacity_change_ah",
+        "feature_2": "soh_change_percentage",
+        "pearson_r": 0.9989931217752092
+      },
+      {
+        "feature_1": "capacity_change_percentage",
+        "feature_2": "soh_change_percentage",
+        "pearson_r": 0.9932357185023812
+      },
+      {
+        "feature_1": "ica_peak_value",
+        "feature_2": "ica_area",
+        "pearson_r": 0.9843362549856027
+      },
+      {
+        "feature_1": "ica_peak_voltage",
+        "feature_2": "ica_area",
+        "pearson_r": 0.9142701521420521
+      }
+    ]
+  },
+  "battery_differences": {
+    "B0005": {
+      "discharge_cycles_count": 168,
+      "initial_capacity_ah": 1.8564874208181574,
+      "final_capacity_ah": 1.3250793286429356,
+      "absolute_capacity_loss_ah": 0.5314080921752218,
+      "soh_min": 69.34884167276275,
+      "soh_max": 100.0,
+      "avg_soh_loss_per_cycle": 0.17140349827312137,
+      "mean_temperature_c": 32.79131856603086,
+      "peak_temperature_c": 41.45023191903855,
+      "mean_duration_s": 3129.523886904762,
+      "recovery_cycles_count": 7
+    },
+    "B0006": {
+      "discharge_cycles_count": 168,
+      "initial_capacity_ah": 2.035337591005598,
+      "final_capacity_ah": 1.1856752327929356,
+      "absolute_capacity_loss_ah": 0.8496623582126623,
+      "soh_min": 56.689285192545555,
+      "soh_max": 100.0,
+      "avg_soh_loss_per_cycle": 0.2499732022174221,
+      "mean_temperature_c": 32.79266458937206,
+      "peak_temperature_c": 42.0075404495327,
+      "mean_duration_s": 3129.523886904762,
+      "recovery_cycles_count": 11
+    },
+    "B0007": {
+      "discharge_cycles_count": 168,
+      "initial_capacity_ah": 1.89105229539079,
+      "final_capacity_ah": 1.4324552720625434,
+      "absolute_capacity_loss_ah": 0.4585970233282466,
+      "soh_min": 74.05692816217145,
+      "soh_max": 100.0,
+      "avg_soh_loss_per_cycle": 0.1452149137674638,
+      "mean_temperature_c": 32.367750973956205,
+      "peak_temperature_c": 42.33252236723314,
+      "mean_duration_s": 3129.523886904762,
+      "recovery_cycles_count": 7
+    },
+    "B0018": {
+      "discharge_cycles_count": 132,
+      "initial_capacity_ah": 1.8550045207910817,
+      "final_capacity_ah": 1.341051440640485,
+      "absolute_capacity_loss_ah": 0.5139530801505967,
+      "soh_min": 72.29370201580872,
+      "soh_max": 100.0,
+      "avg_soh_loss_per_cycle": 0.21149845789458993,
+      "mean_temperature_c": 31.094192369945784,
+      "peak_temperature_c": 38.878687997701746,
+      "mean_duration_s": 3069.074083333333,
+      "recovery_cycles_count": 9
+    }
+  },
+  "sample_counts": {
+    "total_cycles": 636,
+    "batteries_count": 4,
+    "battery_ids": [
+      "B0005",
+      "B0006",
+      "B0007",
+      "B0018"
+    ]
+  }
+}
