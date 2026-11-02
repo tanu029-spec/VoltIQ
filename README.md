@@ -385,3 +385,35 @@ In the spirit of honest, defensible engineering suitable for automotive applicat
 - **Code License:** Open-source under the [MIT License](LICENSE).
 - **Dataset Attribution:** Courtesy of the Prognostics Center of Excellence (PCoE) at NASA Ames Research Center.
 - **Author:** Developed as an automotive data science and battery intelligence portfolio project.
+
+---
+
+## 📺 Dashboard
+<img width="1916" height="1027" alt="Screenshot 2026-11-02 050918" src="https://github.com/user-attachments/assets/96ad0728-a1a5-4f80-a0d0-ff1e355beeed" />
+<img width="1917" height="1030" alt="Screenshot 2026-11-02 050933" src="https://github.com/user-attachments/assets/b316202f-e5fc-4fff-83e2-e0cc8f473bc4" />
+<img width="1917" height="1028" alt="Screenshot 2026-11-02 051000" src="https://github.com/user-attachments/assets/96ad7046-9359-4daf-8b02-9fdbd2e0099a" />
+<img width="1917" height="1027" alt="Screenshot 2026-11-02 051028" src="https://github.com/user-attachments/assets/5e0b0f78-3f39-4600-bb19-dab94dfac3cb" />
+<img width="1917" height="1027" alt="Screenshot 2026-11-02 051037" src="https://github.com/user-attachments/assets/6c5ecd10-0c01-4818-b1dd-6443142928b8" />
+<img width="1917" height="1028" alt="Screenshot 2026-11-02 051045" src="https://github.com/user-attachments/assets/3e464dd0-8fb9-4ae2-9a91-c0d58b0cfaa9" />
+<img width="1357" height="542" alt="Screenshot 2026-11-02 051122" src="https://github.com/user-attachments/assets/11a0dc88-e92a-4df8-bd3c-5fc32d165756" />
+<img width="1917" height="1028" alt="Screenshot 2026-11-02 051111" src="https://github.com/user-attachments/assets/1f48cd5e-aef7-48ff-89de-5831e3c82a3b" />
+<img width="1916" height="1030" alt="Screenshot 2026-11-02 051056" src="https://github.com/user-attachments/assets/ec938ed9-a69d-45e7-bf70-94612b9370d9" />
+<img width="1917" height="1030" alt="Screenshot 2026-11-02 051131" src="https://github.com/user-attachments/assets/c886e6f4-b166-4e51-8364-61e3267d2407" />
+<img width="1917" height="1027" alt="Screenshot 2026-11-02 051140" src="https://github.com/user-attachments/assets/a60c8e9c-dfa8-467b-9c99-875872913a9e" />
+<img width="1917" height="1026" alt="Screenshot 2026-11-02 051147" src="https://github.com/user-attachments/assets/cf07fc45-dc59-4804-b861-764a24914495" />
+<img width="1917" height="1031" alt="Screenshot 2026-11-02 051200" src="https://github.com/user-attachments/assets/24b84bd7-25c3-4c3e-a65f-a4e6a382879b" />
+<img width="1916" height="1030" alt="Screenshot 2026-11-02 051208" src="https://github.com/user-attachments/assets/f4d042ba-cd98-4c8c-9e0a-5d88a3f5dbf3" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
